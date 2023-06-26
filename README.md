@@ -1,0 +1,1 @@
+# lefthook-pre-push-test
