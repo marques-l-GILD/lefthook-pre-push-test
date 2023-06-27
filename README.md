@@ -40,7 +40,7 @@ $ lefthook add pre-push
 $ git commit --allow-empty -m "empty commit for testing"
 $ git push
 
-Lefthook v1.4.1
+Lefthook v1.4.3
 RUNNING HOOK: pre-push
 ⠦ waiting: pre-push.sh
 #          ^^^^^^^^^^^ hangs here waiting for STDIN
