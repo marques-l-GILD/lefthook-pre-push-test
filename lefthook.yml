@@ -1,0 +1,9 @@
+---
+pre-push:
+  scripts:
+    # This is an example script, adapted from .git/hooks/pre-push.sample
+    "pre-push.sh":
+      runner: sh
+    # This is the "real" script I want to run on pre-push
+    talisman_hook_script:
+      runner: bash
